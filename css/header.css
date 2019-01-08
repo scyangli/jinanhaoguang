@@ -8,9 +8,9 @@ body{
   height:34px;
 }
 .first_content{
-  width:750px;
+  width:1170px;
   line-height:34px;
-  margin:0 auto;
+  margin:366.5px;
   font-size:12px;
   color:#666666;
 }
@@ -20,6 +20,19 @@ body{
 .first_content>div:last-child{
   float:right;
 }
-.first_content>div:first-child>span{
-  color:red;
+.myInput{
+  position:relative
+}
+.myInput input{
+  width:312px;
+  height:38px;
+}
+.myInput>button{
+  background:#0d74b7;
+  border:none;
+  width:48px;
+  height:44px;
+  position:absolute;
+  left:312px;
+  top:0;
 }
